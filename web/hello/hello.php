@@ -15,6 +15,22 @@
             "Green" => "#00ff00",
             "Blue" => "#0000ff"
         );
+        $contacts = array(
+            array(
+                "name" => "Peter Parker",
+                "email" => "peterparker@mail.com",
+            ),
+            array(
+                "name" => "Clark Kent",
+                "email" => "clarkkent@mail.com",
+            ),
+            array(
+                "name" => "Harry Potter",
+                "email" => "harrypotter@mail.com",
+            )
+        );
+        // Access nested value
+        echo "Peter Parker's Email-id is: " . $contacts[0]["email"] . "<br>";
 
         echo "Tutorial on " . URL . "<br>";
         echo "The color of the sky is " . "<h3 style='color:blue'>$color</h3>" . "<br>";
