@@ -18,7 +18,8 @@
 
         //Create object from class
         $message = new greeting;
-        var_dump($message);
+        echo $message->show_greeting();
+        //var_dump($message);
     ?>
 </body>
 </html>
